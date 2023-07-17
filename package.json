@@ -1,0 +1,20 @@
+{
+  "name": "koa-multipart-response",
+  "private": true,
+  "description": "koa 多部分响应数据示例 (在一个接口中同时返回图片文件流和 json)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "git@github.com:komorebi920/koa-multipart-response.git",
+  "author": "komorebi920 <yxc900920@163.com>",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "mime": "^3.0.0",
+    "text-encoding-utf-8": "^1.0.2"
+  },
+  "license": "MIT"
+}
